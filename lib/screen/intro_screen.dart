@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('asset/img/logo.png'), //고등어 이미지.
+            Image.asset('asset/img/logo_purple.png'), //고등어 이미지.
             intro_bottom(), //각종 기본적인 텍스트.
             ElevatedButton(
               onPressed: tryLogin,

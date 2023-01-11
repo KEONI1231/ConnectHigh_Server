@@ -203,11 +203,11 @@ class HomeBoard extends StatelessWidget {
       ],
     );
     final ts = TextStyle(
-        fontSize: 18, fontWeight: FontWeight.w700, color: PRIMARY_COLOR);
+        fontSize: 18, fontWeight: FontWeight.w700, color: Colors.black);
     final tsContent = TextStyle(
         fontSize: 15,
         fontWeight: FontWeight.w500,
-        color: PRIMARY_COLOR,
+        color: Colors.black,
         overflow: TextOverflow.ellipsis);
 
     return Container(

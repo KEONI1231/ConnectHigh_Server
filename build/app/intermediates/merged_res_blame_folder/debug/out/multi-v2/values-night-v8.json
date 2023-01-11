@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\proj\\git_flu\\HighConnect_WithApi\\ConnectHigh_Server\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\ConnectHigh_Server\\ConnectHigh_Server\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kh991\\.gradle\\caches\\transforms-3\\52be0bdc9d6a22b2fcacd549a1c1f619\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\dyddn\\.gradle\\caches\\transforms-3\\52be0bdc9d6a22b2fcacd549a1c1f619\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\proj\\git_flu\\HighConnect_WithApi\\ConnectHigh_Server\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\ConnectHigh_Server\\ConnectHigh_Server\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
