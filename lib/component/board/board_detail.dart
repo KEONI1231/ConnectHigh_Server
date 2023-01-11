@@ -47,10 +47,10 @@ class _BoardDetailState extends State<BoardDetail> {
   final TextEditingController replContent = TextEditingController();
   final GlobalKey<FormState> formKey = GlobalKey();
   final titleStyle = const TextStyle(
-      color: PRIMARY_COLOR, fontSize: 24, fontWeight: FontWeight.w700);
+      color: Colors.black, fontSize: 24, fontWeight: FontWeight.w700);
   final contentStyle = const TextStyle(
-      color: PRIMARY_COLOR, fontSize: 20, fontWeight: FontWeight.w500);
-  final defaultTs = const TextStyle(color: PRIMARY_COLOR, fontSize: 16);
+      color: Colors.black, fontSize: 20, fontWeight: FontWeight.w500);
+  final defaultTs = const TextStyle(color: Colors.black, fontSize: 16);
 
   @override
   Widget build(BuildContext context) {
@@ -210,7 +210,7 @@ class _ReplViewState extends State<ReplView> {
   @override
   Widget build(BuildContext context) {
     var boardTitle = widget.boardTitle;
-    final titleStyle = TextStyle(color: PRIMARY_COLOR, fontSize: 20);
+    final titleStyle = TextStyle(color: Colors.black, fontSize: 20);
     final contentStyle = TextStyle(color: Colors.grey[600], fontSize: 14);
     return StreamBuilder<QuerySnapshot>(
       stream: firestore

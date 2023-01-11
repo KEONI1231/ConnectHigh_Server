@@ -40,7 +40,7 @@ class SettingScreen extends StatelessWidget {
       ],
     );
     final ts = TextStyle(
-        fontWeight: FontWeight.w900, color: PRIMARY_COLOR, fontSize: 18);
+        fontWeight: FontWeight.w900, color: Colors.black, fontSize: 18);
     return SafeArea(
       child: Scaffold(
         backgroundColor: BRIGHT_COLOR,
@@ -92,7 +92,7 @@ class _ProfileCardState extends State<ProfileCard> {
   @override
   Widget build(BuildContext context) {
     final ts = TextStyle(
-        fontWeight: FontWeight.w700, color: PRIMARY_COLOR, fontSize: 12);
+        fontWeight: FontWeight.w700, color: Colors.black, fontSize: 12);
     return Padding(
       padding: const EdgeInsets.only(left: 16.0, right: 16, bottom: 16),
       child: Container(
@@ -134,7 +134,7 @@ class _ProfileCardState extends State<ProfileCard> {
                   ),
                   OutlinedButton(
                     style: OutlinedButton.styleFrom(
-                        primary: PRIMARY_COLOR,
+                        primary: Colors.black,
                         minimumSize: Size(80, 30),
                         side: BorderSide(
                           color: PRIMARY_COLOR,
@@ -203,7 +203,7 @@ class PersonalAccountSetting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ts = TextStyle(
-        fontWeight: FontWeight.w900, color: PRIMARY_COLOR, fontSize: 14);
+        fontWeight: FontWeight.w900, color: Colors.black, fontSize: 14);
 
     return Padding(
       padding: const EdgeInsets.only(left: 8.0, right: 8.0, bottom: 8.0),
@@ -293,7 +293,7 @@ class _AppSettingState extends State<AppSetting> {
   @override
   Widget build(BuildContext context) {
     final ts = TextStyle(
-        fontWeight: FontWeight.w900, color: PRIMARY_COLOR, fontSize: 14);
+        fontWeight: FontWeight.w900, color: Colors.black, fontSize: 14);
     return Padding(
       padding: const EdgeInsets.only(left: 8.0, right: 8.0, bottom: 8.0),
       child: Container(
@@ -376,7 +376,7 @@ class EtcSetting extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ts = TextStyle(
-        fontWeight: FontWeight.w900, color: PRIMARY_COLOR, fontSize: 14);
+        fontWeight: FontWeight.w900, color: Colors.black, fontSize: 14);
     return Padding(
       padding: const EdgeInsets.only(left: 8.0, right: 8.0, bottom: 8.0),
       child: Container(

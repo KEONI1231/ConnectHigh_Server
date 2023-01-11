@@ -21,8 +21,12 @@ class _findAccountState extends State<findAccount> {
       body: SafeArea(
         child: Column(
           children: [
-            CustomAppBar(titleText : '계정찾기'),
-            Image.asset('asset/img/login_screen_logo.png'),
+            CustomAppBar(titleText: '계정찾기'),
+            Image.asset(
+              'asset/img/logo_blue.png',
+              width: 200,
+              height: 200,
+            ),
             SizedBox(height: 48),
             Padding(
               padding: const EdgeInsets.fromLTRB(0, 48, 0, 48),

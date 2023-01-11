@@ -36,7 +36,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 Center(
                   child: Column(
                     children: [
-                      Image.asset('asset/img/login_screen_logo.png'),
+                      Image.asset(
+                        'asset/img/logo_blue.png',
+                        width: 200,
+                        height: 200,
+                      ),
                       LoginPart(),
                       BottomPart(
                         //텍스트 버튼을 모아둔 봄

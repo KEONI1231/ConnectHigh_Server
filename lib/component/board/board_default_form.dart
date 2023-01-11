@@ -157,7 +157,7 @@ class PostContents extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final titleStyle = TextStyle(color: PRIMARY_COLOR, fontSize: 21);
+    final titleStyle = TextStyle(color: Colors.black, fontSize: 21);
     final contentStyle = TextStyle(color: Colors.grey[600], fontSize: 18);
     return GestureDetector(
         onTap: () {

@@ -15,7 +15,7 @@ class BoardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ts = TextStyle(
-        fontSize: 18, fontWeight: FontWeight.w700, color: PRIMARY_COLOR);
+        fontSize: 18, fontWeight: FontWeight.w700, color: Colors.black);
 
     return SafeArea(
       child: Scaffold(
